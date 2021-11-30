@@ -5,6 +5,10 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* sets these aspects to all elements */
@@ -23,6 +27,22 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  width: 100vw;
+  max-width: 100vw;
+  /* background-color: red; */
+}
+
+
+/* flex align start justify center className */
+.App800px {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  /* calked to cancel padding */
+  width: calc(100vw - 40px);
+  max-width: 800px;
 }
 
 /* break element with the height and set as the variable "--break-height" */
@@ -36,7 +56,7 @@ body {
   /* calking to cancel the extra space from horizontal padding */
   width: calc(100vw - 40px);
   /* set this as out theme color */
-  background-color: purple;
+  background-color: rgb(80, 0, 80);
   height: 65px;
   display: flex;
   align-items: center;
@@ -49,4 +69,45 @@ body {
 /* setting everything in navbar to... */
 #navbar * {
   color: white;
+}
+
+/* title text style */
+.title {
+  font-size: 25px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+/* normal paragraph text style */
+.p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* centers the element horizontally */
+.centerizer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+/* you have to specify stuff in style={{}} */
+.button {
+  background-color: rgb(80, 0, 80);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  transition: ease-out 0.1s;
+  cursor: pointer;
+}
+.button * {
+  color: white;
+  user-select: none;
+}
+
+.button:hover {
+  transform: scale(105%);
 }
