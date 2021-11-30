@@ -1,38 +1,52 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&family=Roboto+Mono:wght@300;400&family=Rubik&family=Source+Code+Pro&family=Varela+Round&display=swap');
+
+/* sets padding 0 and margin 0 so it doesnt look weird */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* sets these aspects to all elements */
+* {
+  /* setting the same font for each element */
+  font-family: 'Red Hat Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* flex align justify center className */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* break element with the height and set as the variable "--break-height" */
+.break {
+  height: var(--break-height)
+}
+
+/* normal space between fixed component FOR NOW */
+#navbar {
+  padding: 0 20px;
+  /* calking to cancel the extra space from horizontal padding */
+  width: calc(100vw - 40px);
+  /* set this as out theme color */
+  background-color: purple;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* setting everything in navbar to... */
+#navbar * {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Curriculum from "./Curriculum.js"
+import Navbar from "./Navbar.js"
+
+// IMPORTANT 1 - paste this at the start of EVERY ELEMENT to make space for the navbar at the top (except App.js ofc): <div className="break" style={{ "--break-height": "65px"}}></div>
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* react-router allows you to create new routes for your pages*/}
+      <Router>
+        <Navbar />
+        <Routes>
+          {/* curriculum route */}
+          <Route exact path="/curriculum" element={<Curriculum />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
