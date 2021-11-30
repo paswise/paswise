@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #020202;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: -10px;
+  color: #dedede
+}
+
+.des {
+  font-size: 25px;
+  color: #909090;
+  margin-top: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.coming {
+  font-size: 125px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  background-image: linear-gradient(45deg, #ffffff, #f78200, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-top: 70px;
+}
+
+.icon {
+  color: #dedede;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.icons {
+  margin-top: 46px;
+}
+
+@media only screen and (max-width: 600px) {
+  .coming {
+    font-size: 60px;
+  }
+
+  .des {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .coming {
+    font-size: 80px;
+  }
+
+  .des {
+    font-size: 25px;
+  }
+}
