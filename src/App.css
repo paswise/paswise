@@ -106,6 +106,7 @@ body {
 .button * {
   color: white;
   user-select: none;
+  text-align: center;
 }
 
 .button:hover {
