@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+## Paswise
+Making money online seems hard, But really it isn't. There are thousands of simple skill you can learn part-time and make good money with it, or even you can get a job 😮. These skills can be learned within a few days, all you need to have is a laptop and a stable internet connection.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contribute
+We really appreciate your contribution to the project. There are a few ways to contribute:
 
-## Available Scripts
+#### 1. Contribution through code
+You can check the website [Paswise](https://paswise.vercel.app). We are currently cooking our website, but if you found a bug or anything you think could be better. You can just make a pull request after solving it.
 
-In the project directory, you can run:
+#### 2. Contribution on helping our curriculum
+We help beginers to learn skills and make money online. Our team is reguarly working towards our curriculum. If you want to help us with this, you can contact chp@bunbrew.com and he will give you all the information.
 
-### `npm start`
+#### 3. Become a Ambassador
+This is one of most important part we seek help for. We try to spread our project on a lot of social media like Twitter, Instagram, Tiktok, Youtube, and Linkedin. If you think, you can make some content for any of this social media or for our blog, Just drop an email at chp@bunbrew.com.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### 4. Become a donator
+We dont seek for any profit from our project, but this project cost us some money & a lot of work/effort to run. If you like our efforts, You can support us by donating. We accept literally everyone, a cookie also. If you are interested in becoming an early supporter, please DM [@chp_it](https://twitter.com/chp_it) on twitter.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech Stack
+We currently use HTML, CSS, JavaScript, React & Node in our project. We plan to more diversify it after few months running it.
 
-### `npm test`
+## Follow Our Journey
+We share all updates on our social media. You can five us a follow [Twitter](twitter.com/paswise) & [Instagram](instagram.com/paswise).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Thanks for reading. 🙏🙏
