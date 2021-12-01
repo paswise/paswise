@@ -20,7 +20,7 @@ const Curriculum = () => {
             <p className="p">You can do this on Twitter and GitHub, and also on the <span style={{borderBottom: "2px solid black", cursor: "pointer"}} onClick={() => window.location.replace("/forum")}>Paswise forum</span>.</p>
             <p className="p">Happy coding!</p>
             <div className="centerizer">
-                <div className="button" style={{ margin: "30px" }} onClick={() => window.location.replace("/login")}><p className="title" style={{ fontSize: "18px", margin: 0}}>Sign in to save your progress</p></div>
+                <div className="curriculumbutton" style={{ margin: "30px" }} onClick={() => window.location.replace("/login")}><p className="title" style={{ fontSize: "18px", margin: 0}}>Sign in to save your progress</p></div>
             </div>
         </div>
     )

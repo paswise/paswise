@@ -93,7 +93,7 @@ body {
 }
 
 /* you have to specify stuff in style={{}} */
-.button {
+.curriculumbutton {
   background-color: rgb(80, 0, 80);
   border-radius: 5px;
   display: flex;
@@ -103,12 +103,92 @@ body {
   transition: ease-out 0.1s;
   cursor: pointer;
 }
-.button * {
+.curriculumbutton * {
   color: white;
   user-select: none;
   text-align: center;
 }
 
-.button:hover {
+.curriculumbutton:hover {
   transform: scale(105%);
 }
+
+/* VIK's CSS */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* font-family: 'JetBrains Mono', monospace; */
+}
+
+.navbar {
+    height: 4pc;
+    width: 100%;
+    background-color: #1f253a;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1 {
+    margin-top: 25px;
+}
+
+.loginbutton {
+    height: 4pc;
+    width: 40pc;
+    border: none;
+    border: 4px solid #1f253a;
+    background-color: #c4c4c4;
+    margin-top: 10px;
+    /* font-family: 'JetBrains Mono', monospace; */
+    font-size: larger;
+    transition: ease-out 0.1s;
+}
+.loginbutton:hover {
+    cursor: pointer;
+    background-color: #1f253a;
+    color: #fff;
+    transform: scale(105%);
+}
+
+.separate {
+    height: 5px;
+    width: 40pc;
+    background-color: #1f253a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input {
+    height: 3.5pc;
+    width: 38.9pc;
+    border: none;
+    border: 4px solid #1f253a;
+    margin-top: 10px;
+    /* font-family: 'JetBrains Mono', monospace; */
+    font-size: larger;
+    padding-left: 10px;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 36.5%;
+}
+
+.underline {
+    text-align: center;
+}
+.underline:hover {
+    text-decoration: underline;
+}
+/* VIK's CSS */
