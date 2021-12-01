@@ -1,38 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020202;
+  overflow-x: hidden;
+}
+
 .App {
+  font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  width: 100%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: -10px;
+  color: #dedede
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.des {
+  font-size: 25px;
+  color: #909090;
+  margin-top: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.coming {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  background-image: linear-gradient(45deg, #ffffff, #f78200, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-top: 70px;
+}
+
+.icon {
+  color: #dedede;
+  margin: 10px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.icons {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .coming {
+    font-size: 60px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .des {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .coming {
+    font-size: 80px;
+  }
+
+  .des {
+    font-size: 25px;
   }
 }
